@@ -101,24 +101,57 @@ a:visited {
 }*/
 /*Project block style*/
 div.project {
-	padding:20px;
-	margin-top: 20px;
+	/*padding:20px;*/
+	/*margin-top: 20px;*/
 	margin-left: 20px;
 	margin-right: 20px;
 	border-radius: 20px;
+	margin-bottom: 20px;
 	text-align: center;
 	background-color: lightgrey;
+
+	content: "";
+	clear: both;
+	display: table;
 }
 h1 {
 	text-align:  center;
 }
+h3.caption {
+	text-align: center;
+	font-style: italic;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: -20px;
+
+}
 img {
-	border-radius: 20px;
+	box-sizing: border-box;
+	border-radius: 40px;
+	padding: 20px;
 	max-width: 100%;
 	height: auto;
+	/*padding: 20px;*/
 	/*margin-left: 10px;
 	margin-right: 20px;*/
 }
 img.gallery {
+	box-sizing: border-box;
+	max-width:25%;
+	height: auto;
+	/*padding: 10px;*/
+	/*border: 5px;*/
+	/*float:center;*/
+}
+@media screen and (max-width: 900px) {
+	img.gallery {
+		max-width: 50%;
+	}
+}
 
+p {
+	text-align: justify;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 20px;
 }
