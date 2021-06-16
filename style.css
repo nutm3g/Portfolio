@@ -157,7 +157,7 @@ img.gallery {
 div.scarf {
 	width: 50%;
 	overflow-y: scroll;
-	height: 400px;
+	height: 600px;
 	box-sizing: border-box;
 	/*padding: 20px;*/
 	float: left;
